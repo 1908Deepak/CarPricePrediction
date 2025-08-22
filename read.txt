@@ -1,1 +1,0 @@
-Before running main.py file mkdir models 
