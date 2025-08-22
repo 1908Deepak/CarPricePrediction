@@ -80,8 +80,8 @@ def main():
         This project predicts **car resale prices** using multiple regression models.  
         The user can **choose their preferred algorithm** for prediction.  
 
-        ### 🗂 Dataset
-        - Source: `car data.csv`  
+        ### 🗂 Dataset  
+        - Dataset: [car data.csv](https://drive.google.com/file/d/1MLzAfwX9QffUNzNw4RiC1XSuLSQSoiu3/view?usp=sharing)
         - Features: Year, Present Price, Kms Driven, Fuel Type, Seller Type, Transmission, Owner  
         - Target: Selling Price  
 
