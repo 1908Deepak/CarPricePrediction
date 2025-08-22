@@ -18,7 +18,7 @@ import lightgbm as lgb
 from catboost import CatBoostRegressor
 
 
-def load_data(path: str = "car_data.csv") -> pd.DataFrame:
+def load_data(path: str = "CarPricePrediction/models/car_data.csv") -> pd.DataFrame:
     """Load car dataset and encode categorical variables."""
     df = pd.read_csv(path)
     df.replace({'Fuel_Type': {'Petrol': 0, 'Diesel': 1, 'CNG': 2}}, inplace=True)
@@ -59,7 +59,7 @@ def train_and_save_models(X_train, X_test, y_train, y_test):
 
 if __name__ == "__main__":
     # Prepare dataset
-    df = load_data("car_data.csv")
+    df = load_data("CarPricePrediction/models/car_data.csv")
     X = df.drop(["Car_Name", "Selling_Price"], axis=1)
     y = df["Selling_Price"]
 
