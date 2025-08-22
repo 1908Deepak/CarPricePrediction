@@ -10,7 +10,7 @@ import joblib
 import os
 
 
-MODEL_DIR = "models"
+MODEL_DIR = "CarPricePrediction/models"
 
 
 def load_model(model_name: str):
